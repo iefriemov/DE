@@ -14,10 +14,8 @@ def ETL(path_sql,day_data,date_of_upload):
     sqlCommands = sqlFile.split(';')
     sqlCommands = sqlCommands[:-1]
     
-    conn = jaydebeapi.connect( 'oracle.jdbc.driver.OracleDriver',
-                               'jdbc:oracle:thin:itde1/bilbobaggins@de-oracle.chronosavant.ru:1521/deoracle',
-                               ['itde1', 'bilbobaggins'],
-                               '/home/itde1/ojdbc8.jar' )
+    conn = jaydebeapi.connect()
+
     conn.jconn.setAutoCommit(False)
     curs = conn.cursor()
 
