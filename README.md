@@ -12,3 +12,7 @@
 
 Данные должны быть загружены в хранилище со следующей структурой
 ![image](https://user-images.githubusercontent.com/47502992/126906720-a12145c1-6a95-48d4-91e2-eeb8ace5a37f.png)
+
+
+
+
